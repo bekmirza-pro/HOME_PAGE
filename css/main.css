@@ -1,0 +1,334 @@
+/* barlow-500 - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/barlow-v5-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/barlow-v5-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-regular - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/barlow-v5-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/barlow-v5-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-700 - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/barlow-v5-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/barlow-v5-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+/* fraunces-regular - latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/fraunces-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fraunces-800 - latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url('../fonts/fraunces-v10-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/fraunces-v10-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fraunces-900 - latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/fraunces-v10-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow", "Calibri", "Mulish";
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.container-two {
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url(../imges/Bitmap.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-size: 1280px 600px;
+}
+.container-three {
+  width: 1111px;
+  margin: 0 auto;
+}
+.container-choose {
+  width: 1280px;
+  height: 577px;
+  margin: 0 auto;
+  background: #2c343e;
+}
+.container-new {
+  width: 1045px;
+  margin: 0 auto;
+}
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+.nav-left {
+  display: flex;
+  list-style: none;
+}
+.nav-left-item {
+  margin-left: 33px;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #83888f;
+}
+.first-section-items {
+  width: 493px;
+  padding: 60px 0px;
+  margin-left: 85px;
+}
+.site-paragraf {
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-family: 'Fraunces';
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+.site-paragraf-item {
+  width: 435px;
+  margin-bottom: 56px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+.first-section-link {
+  padding: 15px 32px;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: 'Fraunces';
+  line-height: 25px;
+  text-decoration: none;
+  color: #fefcf7;
+  background: #0e8784;
+  border-radius: 6px;
+}
+/* ******************OUR COLLECTION************************************* */
+.our-collection {
+  padding: 167px 0px;
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  background-image: url(../imges/our-collection1.png);
+  background-repeat: no-repeat;
+  background-position: center top 35px;
+}
+.small-paragraf {
+  margin-top: 71px;
+  font-weight: 900;
+  font-size: 24px;
+  font-family: 'Fraunces';
+  line-height: 32px;
+  color: #333d4b;
+}
+.small-paragraf-item {
+  width: 255px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333d4b;
+}
+.choose-p {
+  padding: 112px 0 0 0;
+  font-weight: 900;
+  font-size: 40px;
+  font-family: 'Fraunces';
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+}
+.choose-p-item {
+  width: 535px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+.services-section {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.services-section-item {
+  position: relative;
+  bottom: 220px;
+  padding: 70px 10px;
+  width: 350px;
+  height: 382px;
+  background: #0e8784;
+  border-radius: 8px;
+}
+.services-section-item:nth-child(2) {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.services-p {
+  margin-top: 55px;
+  font-weight: 900;
+  font-size: 24px;
+  font-family: 'Fraunces';
+  line-height: 32px;
+  text-align: center;
+  color: #fefcf7;
+}
+.services-p-item {
+  width: 255px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+}
+.services-fhoto {
+  display: block;
+  margin: 0 auto;
+}
+.section-last-p {
+    margin-bottom: 120px;
+  font-weight: 900;
+  font-size: 24px;
+  font-family: 'Fraunces';
+  line-height: 32px;
+  color: #83888f;
+}
+.section-last {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 65px;
+  display: flex;
+  list-style: none;
+}
+.section-last-item:nth-child(2) {
+  margin-left: 95px;
+  margin-right: 95px;
+}
+.namber {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  margin-bottom: 0;
+  color: #fdd6ba;
+}
+.site-hr{
+    position: relative;
+    display: inline-block;
+    width: 760px;
+    height: 1px;
+    margin-right: auto;
+border: 2px solid #FDD6BA;
+}
+.namber::before {
+    position: absolute;
+  content: "";
+  bottom: -2068px;
+  width: 25px;
+  height: 25px;
+  background: #fefcf7;
+  border-radius: 50%;
+  border: 2px solid #0e8784;
+}
+.small-last-p {
+  width: 255px;
+  font-weight: 900;
+  font-size: 32px;
+  font-family: 'Fraunces';
+  line-height: 36px;
+  color: #333d4b;
+}
+.last-p-item {
+  width: 285px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+.last-section-link {
+  display: inline-block;
+  padding: 15px 32px;
+  margin-bottom: 220px;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: 'Fraunces';
+  line-height: 25px;
+  text-decoration: none;
+  color: #fefcf7;
+  background: #0e8784;
+  border-radius: 6px;
+}
+.footer {
+  height: 120px;
+  background: #2c343e;
+}
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+.footer-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 40px;
+}
+.footer-list-item {
+  font-size: 12px;
+  line-height: 15px;
+  margin-left: 33px;
+  letter-spacing: 0.923077px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.footer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 47px 0px;
+}
+.footer-left-fhoto {
+  margin-left: 20px;
+}
